@@ -1,6 +1,20 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta http-equiv="refresh" content="0; url=Version 2/main.html">
-  </head>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Redirecting...</title>
+
+<script>
+const isPhone = /Mobi|Android|iPhone|iPod/i.test(navigator.userAgent);
+
+if (isPhone) {
+    window.location.replace("phone.html");
+} else {
+    window.location.replace("web.html");
+}
+</script>
+
+</head>
+<body>
+</body>
 </html>
